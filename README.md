@@ -1,4 +1,4 @@
-![Untitled (2)](https://github.com/m1nddoong/capstone-design-2/assets/110027583/775288da-74af-4ad8-afb5-e0b566920f97)![Untitled](https://github.com/m1nddoong/capstone-design-2/assets/110027583/cad4fc5b-b7dd-46f3-8b6e-51ef870adcb2)# capstone-design-2
+# capstone-design-2
 - 인바디 이미지 Weight, Muscle, Fat 객체 탐지
 
 [Roboflow]
