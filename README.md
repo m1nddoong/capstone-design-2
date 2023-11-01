@@ -1,4 +1,4 @@
-# capstone-design-2
+![Untitled (2)](https://github.com/m1nddoong/capstone-design-2/assets/110027583/775288da-74af-4ad8-afb5-e0b566920f97)![Untitled](https://github.com/m1nddoong/capstone-design-2/assets/110027583/cad4fc5b-b7dd-46f3-8b6e-51ef870adcb2)# capstone-design-2
 - 인바디 이미지 Weight, Muscle, Fat 객체 탐지
 
 [Roboflow]
@@ -48,11 +48,14 @@
 
 roboflow에는 이미지에서 라벨링작업을 한 x좌표와 y좌표를 얻을 수 있다고 나옴.
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%20%E1%84%8E%E1%85%A5%E1%84%85%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20case%E1%84%92%E1%85%AA%20afd3963351de462a90c81eeebe39e8e2/Untitled.png)
+
+![Untitled](https://github.com/m1nddoong/capstone-design-2/assets/110027583/62a4e5d4-0abe-4111-b3e2-5a0a38b3287b)
+
 
 다음과 같이 이미지를 불러와 라벨링된 부분을 잘라내고
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%20%E1%84%8E%E1%85%A5%E1%84%85%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20case%E1%84%92%E1%85%AA%20afd3963351de462a90c81eeebe39e8e2/Untitled%201.png)
+![Untitled (1)](https://github.com/m1nddoong/capstone-design-2/assets/110027583/7a435193-99ee-43f8-97dd-f51be6bed3a8)
+
 
 그 이미지를 OCR을 통해 text 화 시키는 작업이 필요.
 
@@ -68,7 +71,8 @@ roboflow는 라벨링의 절대적인 좌표가 아닌 상대적인 좌표를 �
 
 상대적인 좌표를 이용해서 이미지의 가로 세로 길이를 곱하여 절대적인 좌표로 변형시킨 후, 이미지를 자르는 작업이 가능함.
 
-![Untitled](%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%20%E1%84%8E%E1%85%A5%E1%84%85%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20case%E1%84%92%E1%85%AA%20afd3963351de462a90c81eeebe39e8e2/Untitled%202.png)
+![Untitled (2)](https://github.com/m1nddoong/capstone-design-2/assets/110027583/bca388e9-0970-47dd-a114-93c5e7f50bd0)
+
 
 따라서 이미지를 자른 후, 잘려진 각각의 라벨링 이미지를 가져와서 OCR을 적용해서 수치를 가져올 수 있다고 함.
 
